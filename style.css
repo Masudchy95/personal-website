@@ -1,0 +1,111 @@
+body{
+    font-family: 'Antic Slab', serif;
+}
+.green-portion{
+    color: green;
+}
+.purple-portion{
+    color: purple;
+}
+p{
+    color: darkblue;
+}
+.half-portion h1{
+    font-size: 40px;
+    font-weight: bold;
+    
+}    
+h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: limegreen;
+}
+h3{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 40px;
+}
+h4{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: justify;
+    padding: 2px;
+}
+h5{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.color-change{
+    color: #6947ff;
+}
+.half-portion{
+    width: 40%;
+    float: left;
+    padding-left: 5%;
+    margin-left: 5%;
+}
+.half-portion img{
+    width: 100%;
+}
+.link-button{
+        text-decoration: none;
+        background-image: linear-gradient(45deg, green, purple);
+        padding: 10px 20px;
+        border-radius: 10px;
+        color: white;
+        font-weight: 800px;
+}
+.download-btn{
+    background-image: linear-gradient(60deg, dodgerblue, lightsalmon) ;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 20px 20px;
+    cursor: pointer;
+    font-size: 15px;
+}
+section{
+    height: 300px;
+    padding-bottom: 150px;
+    margin-left: 120px;
+    margin-top: 100px;
+    width: 80%;
+}
+section.bg-color{
+    background-color: whitesmoke;
+    width: 80%;
+    height: 350px;
+    padding-left: 20px;
+}
+.last-section{
+    margin-top: 200px;
+}
+.one-third-portion{
+    border: 1px solid lightslategray;
+    border-radius: 10px;
+    width: 30%;
+    height: 350px;
+    margin: 10px;
+    float: left;
+    text-align: justify;
+    padding: 5px;
+}
+.last-portion{
+    position: relative;
+    
+}
+.text-block{
+    position: absolute;
+    color: white;
+    padding-left: 200px;
+    
+    
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
