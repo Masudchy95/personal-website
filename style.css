@@ -1,6 +1,22 @@
 body{
     font-family: 'Antic Slab', serif;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+  }
+li {
+    float: right;
+  }
+li a {
+    display: block;
+    color: purple;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none
+}
 .green-portion{
     color: green;
 }
@@ -10,10 +26,16 @@ body{
 p{
     color: darkblue;
 }
+p.icon{
+    padding-top: 2px;
+    margin-left: 20px;
+    color: white;
+    font-weight: 700px;
+    font-size: 25px;
+}
 .half-portion h1{
     font-size: 40px;
     font-weight: bold;
-    
 }    
 h2{
     font-size: 30px;
@@ -31,11 +53,6 @@ h4{
     font-weight: bold;
     text-align: justify;
     padding: 2px;
-}
-h5{
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
 }
 .color-change{
     color: #6947ff;
@@ -79,11 +96,13 @@ section.bg-color{
     height: 350px;
     padding-left: 20px;
 }
-.last-section{
-    margin-top: 200px;
+section.last-section{
+    height: 200px;
+    width: 80%;
 }
 .one-third-portion{
     border: 1px solid lightslategray;
+    background-color: white;
     border-radius: 10px;
     width: 30%;
     height: 350px;
@@ -92,20 +111,33 @@ section.bg-color{
     text-align: justify;
     padding: 5px;
 }
-.last-portion{
-    position: relative;
-    
+.last-portion{ 
+    border-radius: 30px;
+    background-image: url("images/1.png");
+    background-position: center;
+    padding-bottom: 30px;
+    margin-left: 200px;
+    width: 700px;
+    height: 150px;
 }
-.text-block{
-    position: absolute;
+.last-half-portion{
+    border: 1px blue;
+    width: 250px;
+    height: 75%;
+    margin: 40px;
+    display: inline-block;
+}
+.anchor-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, purple, red);
+    padding: 10px;
+    margin-left: 90px;
+    border-radius: 10px;
     color: white;
-    padding-left: 200px;
-    
-    
+    font-weight: 700px;
+    font-size: 25px;
 }
-.center{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.lastdiv{
+    font-size: 20px;
+    text-align: center;
 }
